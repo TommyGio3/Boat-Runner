@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2932658A27D5D86C0091E2C0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2932658927D5D86C0091E2C0 /* main.cpp */; };
+		2932659227D5DF6F0091E2C0 /* libvulkan.1.3.204.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2932659127D5DF6F0091E2C0 /* libvulkan.1.3.204.dylib */; };
+		2932659427D5DF790091E2C0 /* libvulkan.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2932659327D5DF790091E2C0 /* libvulkan.1.dylib */; };
+		2932659627D5E0840091E2C0 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2932659527D5E0840091E2C0 /* libglfw.3.3.dylib */; };
+		2932659827D5E10E0091E2C0 /* libglfw.3.3.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2932659727D5E10E0091E2C0 /* libglfw.3.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2932659A27D5E1820091E2C0 /* libvulkan.1.3.204.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2932659927D5E1820091E2C0 /* libvulkan.1.3.204.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		2932659C27D5E1890091E2C0 /* libvulkan.1.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2932659B27D5E1880091E2C0 /* libvulkan.1.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2932658427D5D86C0091E2C0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = " ";
+			dstSubfolderSpec = 10;
+			files = (
+				2932659827D5E10E0091E2C0 /* libglfw.3.3.dylib in CopyFiles */,
+				2932659A27D5E1820091E2C0 /* libvulkan.1.3.204.dylib in CopyFiles */,
+				2932659C27D5E1890091E2C0 /* libvulkan.1.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2932658627D5D86C0091E2C0 /* Vulkan_Starter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Vulkan_Starter; sourceTree = BUILT_PRODUCTS_DIR; };
+		2932658927D5D86C0091E2C0 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2932659127D5DF6F0091E2C0 /* libvulkan.1.3.204.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvulkan.1.3.204.dylib; path = ../../VulkanSDK/1.3.204.1/macOS/lib/libvulkan.1.3.204.dylib; sourceTree = "<group>"; };
+		2932659327D5DF790091E2C0 /* libvulkan.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvulkan.1.dylib; path = ../../VulkanSDK/1.3.204.1/macOS/lib/libvulkan.1.dylib; sourceTree = "<group>"; };
+		2932659527D5E0840091E2C0 /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../homebrew/Cellar/glfw/3.3.6/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
+		2932659727D5E10E0091E2C0 /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../homebrew/Cellar/glfw/3.3.6/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
+		2932659927D5E1820091E2C0 /* libvulkan.1.3.204.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvulkan.1.3.204.dylib; path = ../../VulkanSDK/1.3.204.1/macOS/lib/libvulkan.1.3.204.dylib; sourceTree = "<group>"; };
+		2932659B27D5E1880091E2C0 /* libvulkan.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libvulkan.1.dylib; path = ../../VulkanSDK/1.3.204.1/macOS/lib/libvulkan.1.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2932658327D5D86C0091E2C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2932659427D5DF790091E2C0 /* libvulkan.1.dylib in Frameworks */,
+				2932659227D5DF6F0091E2C0 /* libvulkan.1.3.204.dylib in Frameworks */,
+				2932659627D5E0840091E2C0 /* libglfw.3.3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2932657D27D5D86C0091E2C0 = {
+			isa = PBXGroup;
+			children = (
+				2932659B27D5E1880091E2C0 /* libvulkan.1.dylib */,
+				2932659927D5E1820091E2C0 /* libvulkan.1.3.204.dylib */,
+				2932659727D5E10E0091E2C0 /* libglfw.3.3.dylib */,
+				2932658827D5D86C0091E2C0 /* Vulkan_Starter */,
+				2932658727D5D86C0091E2C0 /* Products */,
+				2932659027D5DF6F0091E2C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2932658727D5D86C0091E2C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2932658627D5D86C0091E2C0 /* Vulkan_Starter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2932658827D5D86C0091E2C0 /* Vulkan_Starter */ = {
+			isa = PBXGroup;
+			children = (
+				2932658927D5D86C0091E2C0 /* main.cpp */,
+			);
+			path = Vulkan_Starter;
+			sourceTree = "<group>";
+		};
+		2932659027D5DF6F0091E2C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2932659527D5E0840091E2C0 /* libglfw.3.3.dylib */,
+				2932659327D5DF790091E2C0 /* libvulkan.1.dylib */,
+				2932659127D5DF6F0091E2C0 /* libvulkan.1.3.204.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2932658527D5D86C0091E2C0 /* Vulkan_Starter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2932658D27D5D86C0091E2C0 /* Build configuration list for PBXNativeTarget "Vulkan_Starter" */;
+			buildPhases = (
+				2932658227D5D86C0091E2C0 /* Sources */,
+				2932658327D5D86C0091E2C0 /* Frameworks */,
+				2932658427D5D86C0091E2C0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vulkan_Starter;
+			productName = VulkanTesting;
+			productReference = 2932658627D5D86C0091E2C0 /* Vulkan_Starter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2932657E27D5D86C0091E2C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					2932658527D5D86C0091E2C0 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 2932658127D5D86C0091E2C0 /* Build configuration list for PBXProject "Vulkan_Starter" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2932657D27D5D86C0091E2C0;
+			productRefGroup = 2932658727D5D86C0091E2C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2932658527D5D86C0091E2C0 /* Vulkan_Starter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2932658227D5D86C0091E2C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2932658A27D5D86C0091E2C0 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2932658B27D5D86C0091E2C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2932658C27D5D86C0091E2C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2932658E27D5D86C0091E2C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/tommasogiorgeschi/homebrew/include,
+					/Users/tommasogiorgeschi/homebrew/Cellar,
+					/Users/tommasogiorgeschi/VulkanSDK/1.3.204.1/macOS/include,
+					/Users/tommasogiorgeschi/homebrew/lib,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter/MyProject/headers,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter/MyProject/models,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter/MyProject/shaders,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter/MyProject/textures,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter/Assets,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter/Assets/models,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter/Assets/textures,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter/MyProject,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter/MyProject/headers/glm,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter/MyProject/headers/glm/detail,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter/MyProject/headers/glm/ext,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter/MyProject/headers/glm/gtc,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter/MyProject/headers/glm/gtx,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter/MyProject/headers/glm/simd,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter/MyProject/headers,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/Users/tommasogiorgeschi/VulkanSDK/1.3.204.1/macOS/lib,
+					/Users/tommasogiorgeschi/homebrew/Cellar,
+					/Users/tommasogiorgeschi/homebrew/include,
+					/Users/tommasogiorgeschi/homebrew/lib,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/A01/headers,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/A01/models,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/A01/shaders,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/A01/textures,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/A01,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2932658F27D5D86C0091E2C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/Users/tommasogiorgeschi/homebrew/include,
+					/Users/tommasogiorgeschi/homebrew/Cellar,
+					/Users/tommasogiorgeschi/VulkanSDK/1.3.204.1/macOS/include,
+					/Users/tommasogiorgeschi/homebrew/lib,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter/MyProject/headers,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter/MyProject/models,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter/MyProject/shaders,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter/MyProject/textures,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter/Assets,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter/Assets/models,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter/Assets/textures,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter/MyProject,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter/MyProject/headers/glm,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter/MyProject/headers/glm/detail,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter/MyProject/headers/glm/ext,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter/MyProject/headers/glm/gtc,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter/MyProject/headers/glm/gtx,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter/MyProject/headers/glm/simd,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/Starter/MyProject/headers,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/Users/tommasogiorgeschi/VulkanSDK/1.3.204.1/macOS/lib,
+					/Users/tommasogiorgeschi/homebrew/Cellar,
+					/Users/tommasogiorgeschi/homebrew/include,
+					/Users/tommasogiorgeschi/homebrew/lib,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/A01/headers,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/A01/models,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/A01/shaders,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/A01/textures,
+					/Users/tommasogiorgeschi/Desktop/Computer_Graphics/A01,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2932658127D5D86C0091E2C0 /* Build configuration list for PBXProject "Vulkan_Starter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2932658B27D5D86C0091E2C0 /* Debug */,
+				2932658C27D5D86C0091E2C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2932658D27D5D86C0091E2C0 /* Build configuration list for PBXNativeTarget "Vulkan_Starter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2932658E27D5D86C0091E2C0 /* Debug */,
+				2932658F27D5D86C0091E2C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2932657E27D5D86C0091E2C0 /* Project object */;
+}
