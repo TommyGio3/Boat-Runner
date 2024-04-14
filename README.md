@@ -4,7 +4,7 @@ This repository contains a project for the Computer Graphics course at Politecni
 
 The project is a game in which the player must avoid the obstacles by using the keyboard to move the boat.
 
-## 💻 Tools
+## 💻 Tools and languages
 🔴 C++
 
 🔴 Vulkan API 1.3
