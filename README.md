@@ -21,7 +21,6 @@ This project implement a fictional museum virtual tour. It is implemented in C++
 - Use <kbd>s</kbd> to move the boat down.
 
 ## 🎮 Game
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Il Tuo Testo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
 ### Start
 
