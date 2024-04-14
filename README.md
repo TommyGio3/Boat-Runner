@@ -4,8 +4,6 @@ This repository contains a project for the Computer Graphics course at Politecni
 
 The project is a game in which the player must avoid the obstacles by using the keyboard to move the boat.
 
-This project implement a fictional museum virtual tour. It is implemented in C++ using Vulkan API 1.3.
-
 ## 💻 Tools
 🔴 C++
 
